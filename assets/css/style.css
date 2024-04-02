@@ -5683,23 +5683,10 @@ button[data-modal-toggler="selecionarCategoria"]:before {
     -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; 
 }
-@media screen and (min-width: 280px) and (max-width: 700px) {
+@media screen and (min-width: 280px) and (max-width: 900px) {
   .mobile-hidden{
     visibility: hidden;
   }
-}
-@media screen and (min-width: 600px) {
-    .profile-avatar {
-      margin-right: -16rem;
-      margin-top: -6rem;
-  }
-}
-
-@media screen and (min-width: 630px) {
-  .profile-avatar {
-    margin-right: -18rem;
-    margin-top: -6rem;
-}
 }
 
 @media screen and (min-width: 900px) {
@@ -5752,5 +5739,15 @@ button[data-modal-toggler="selecionarCategoria"]:before {
   .twisty-net-modules {
     display: flex !important;
   }
+}
+
+@media screen and (min-width: 300px) and (max-width: 900px){
+
+  .description-mobile{
+    position: absolute;
+    margin-left: 20% !important;
+    align-self: baseline;
+  }
+
 }
 
