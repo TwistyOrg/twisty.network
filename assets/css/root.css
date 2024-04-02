@@ -1,0 +1,40 @@
+   
+
+    :root {
+      --logo_width: 450px;
+      --main-color: #F76B1C;;
+      --error-color: #fe3c45;
+      --hover-buy: #48995d;
+      --hover-sell: #d9373f;
+      --hover-info: #218bdf;
+      --background-color: #13131d;
+      --second-background: #1a1a26;
+      --third-background: #23232e;        
+  
+
+      --fourth-background: #13131d;
+      --package-border: #292936;
+      --primary-text-color: #ffffff;
+      --focus-text-color: #F76B1C;
+      --secondary-text-color: #aeaeae;
+      --cold-color: #FAD961;
+      --green-button: #4da564;
+      --light-green: #57b871;
+      --disable-button: #428954;
+      --font-family: Poppins, sans-serif;
+      --tiny-font: 12px;
+      --small-font: 14px;
+      --medium-font: 16px;
+      --big-font: 18px;
+      --border-radius: 5px;
+
+      --header-img: url("https://media.discordapp.net/attachments/1180119676806770698/1219738867851202660/wallpaperflare.com_wallpaper.jpg?ex=660c6557&is=65f9f057&hm=004d7e28564231f9408f6a8a01d21a2d06ad9ee888b15113e18c9138288e2c2e&=&format=webp&width=550&height=309");
+      --gradient-shadow: #d148413d;
+      --height-image: 500px;
+      --opacity-image: 0.2;
+      --blur-image: 7px;
+      --gift-color: #9747ff !important;
+      --gift-background: rgba(151, 71, 255, 0.2588235294) !important;
+      --gift-accent-color: #cca6ff !important;
+      --gift-text-color: #ffffff !important;
+    }

@@ -1,0 +1,570 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Twisty &copy</title>
+<link rel="icon" href="https://cdn.discordapp.com/attachments/1219693884310032415/1220518265525244084/HaunzMC_sem_fundo.png?ex=660f3b36&is=65fcc636&hm=ba431ea8cd593545c777fb563631523d05d23ddf3b5e7ac5cdab952c052f878a&">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Poppins:wght@600&display=swap"
+    rel="stylesheet" />
+  <link rel="shortcut icon"
+    href="https://media.discordapp.net/attachments/896083092656234506/1124908490805219419/HaunzMC_sem_fundo.png?width=566&height=566" />
+
+  <link href="../assets/css/style.css" rel="stylesheet" />
+  <link href="../assets/css/root.css" rel="stylesheet" />
+  <link rel="stylesheet" href="../ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+  <link rel="stylesheet" href="../ajax/libs/MaterialDesign-Webfont/6.9.96/css/materialdesignicons.min.css" />
+  <link rel="stylesheet" href="../ajax/libs/izimodal/1.5.1/css/iziModal.min.css" />
+  <link rel="stylesheet" href="../ajax/libs/izitoast/1.4.0/css/iziToast.min.css" />
+
+
+
+
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+
+    _gaq.push(["_setAccount", "UA-36735942-3"]);
+    _gaq.push(["_trackPageview"]);
+
+    (function () {
+      var ga = document.createElement("script");
+      ga.type = "text/javascript";
+      ga.async = true;
+      ga.src =
+        ("https:" == document.location.protocol
+          ? "https://ssl"
+          : "http://www") + ".google-analytics.com/ga.js";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(ga, s);
+    })();
+
+    const featuredProducts = new Map();
+  </script>
+
+</head>
+
+<body>
+
+
+  <div class="banner" style="--main-color: #e67e22">
+
+    <p>CUPOM 50% <b style="font-weight: 800;">TWISTY50</b> POR TEMPO LIMITADO!</p>
+
+  </div>
+
+  <div id="modal" style="display: none">
+    <div id="loader" style="display: none" class="login-loader">
+      <svg id="successAnimation" class="animated" xmlns="http://www.w3.org/2000/svg" width="70" height="70"
+        viewbox="0 0 70 70">
+        <path id="successAnimationResult" fill="#D8D8D8"
+          d="M35,60 C21.1928813,60 10,48.8071187 10,35 C10,21.1928813 21.1928813,10 35,10 C48.8071187,10 60,21.1928813 60,35 C60,48.8071187 48.8071187,60 35,60 Z M23.6332378,33.2260427 L22.3667622,34.7739573 L34.1433655,44.40936 L47.776114,27.6305926 L46.223886,26.3694074 L33.8566345,41.59064 L23.6332378,33.2260427 Z">
+        </path>
+        <circle id="successAnimationCircle" cx="35" cy="35" r="24" stroke="#979797" stroke-width="2"
+          stroke-linecap="round" fill="transparent"></circle>
+        <polyline id="successAnimationCheck" stroke="#979797" stroke-width="2" points="23 34 34 43 47 27"
+          fill="transparent"></polyline>
+      </svg>
+      <div class="loading__animated">
+        <img src="attachments/455777545485549589/785783911585284106/tail-spin.svg" width="64px" />
+      </div>
+    </div>
+
+  </div>
+
+  <div class="header-splash">
+    <div class="splash__background"></div>
+  </div>
+  <header class="twisty-net-header">
+    <div class="twisty-net-wrapper prioritate" id="41012">
+      <div class="top-bar">
+        <a href="../index.html" class="back-btn">
+          <i class="mdi mdi-keyboard-backspace" style="margin-bottom: 0.1rem;"></i>
+          <span> Voltar ao Início</span>
+      </a>
+        <!--Este profile-avatar só pode ser vísivel caso ele esteja logado, caso contrario, visibility hidden, nao display none-->
+        <div class="profile-avatar bottom-avatar">
+
+          <div class="profile-description">
+            <p class="profile-title"><span style="color: #F44336; font-weight: 800;">ADMIN</span> Maciel</p>
+            <p class="profile-description-text">
+              (Você)
+            </p>
+          </div>
+
+          <div class="profile-head">
+
+            <img class="avatar-logged" src="https://visage.surgeplay.com/head/512/EduKof.png" alt="Cabeça de EduKof">
+
+
+          </div>
+
+        </div>
+        <a href="../index.htm" class="icon-theme bottom-avatar mobile-hidden">
+          <i class="mdi mdi-lightbulb-cfl-off"></i> <!-- Escuro Habilitado -->
+          <!-- <i class="mdi mdi-lightbulb-cfl"></i> Claro Habilitado -->
+
+
+        </a>
+      </div>
+      <div class="twisty-net-header-g">
+        <div class="widget minecraft-widget">
+          <div class="widget-icon">
+            <span class="player-count">Carregando..</span>
+            <i class="mdi mdi-axe"></i>
+          </div>
+          <div class="description-widget">
+            <p class="widget-title">twisty.network</p>
+            <p class="widget-description">CLIQUE PARA COPIAR</p>
+          </div>
+        </div>
+        <div class="header-logo">
+          <a href="index.html">
+            <img
+              src="https://cdn.discordapp.com/attachments/1219693884310032415/1220518265525244084/HaunzMC_sem_fundo.png?ex=660f3b36&is=65fcc636&hm=ba431ea8cd593545c777fb563631523d05d23ddf3b5e7ac5cdab952c052f878a&"
+              alt="server logo" style="width: 24rem; margin-bottom: 2rem;" animation-logo="pulse"
+              class="header-logo-image" />
+          </a>
+        </div>
+        <a class="widget discord-widget" href="https://discord.gg/PvuFEtAxww" target="_blank">
+          <div class="description-widget">
+            <p class="widget-title">Comunidade Discord</p>
+            <p class="widget-description">Junte-se ao servidor</p>
+          </div>
+          <div class="widget-icon">
+            <span id="discord-count">Carregando..</span><i class="mdi mdi-discord"></i>
+          </div>
+        </a>
+      </div>
+    </div>
+  </header>
+  <div class="twisty-net-wrapper">
+    <div class="notification"></div>
+
+    <div class="body--with-sidebar">
+      <aside class="twisty-net-sidebar">
+        <button data-modal-toggler="selecionarCategoria" aria-label="Seleione uma Categoria" style="border-radius: 4px;">
+          <img src="https://visage.surgeplay.com/head/512/Epicphoenix766?y=30" style="width: 54px;">
+          <span class="category__selector--text" aria-hidden="true" style="font-family: 'Montserrat', sans-serif;">
+            <span style="font-weight: 600;">RANKUP PHOENIX</span>
+            Clique para Selecionar
+          </span>
+        </button>
+
+        <div class="sidebar-header sidebar-round">
+          <p>
+            <i class="mdi mdi-close mobile-icon close-mobile"></i>
+            <i class="mdi mdi-menu mobile-icon"></i>
+            Selecione uma Categoria
+          </p>
+        </div>
+        <div class="t-modal-navigation">
+          <div class="t-modal-navigation__header">
+
+            <span class="mdi mdi-sword"></span>
+
+
+            <div>
+              <span><b style="text-transform: uppercase;">Navegando na Categoria</b></span>
+              <p>VIPs</p>
+            </div>
+
+          </div>
+
+          <ul class="t-modal-navigation__list">
+            <li>
+              <a class="active" href="#">VIPs</a>
+            </li>
+            <li>
+              <a href="categoria/phoenix/cash.html">Cash</a>
+            </li>
+            <li>
+              <a href="categoria/phoenix/pets.html">Pets</a>
+            </li>
+          </ul>
+
+
+
+
+
+
+        </div>
+        <div class="sidebar-nav" id="toggle-mobile-nav">
+          <ul style="--sidebar-image-size: 52px">
+            <li class="twisty-net-toggle-dropdown">
+              <a href="javascript:void(0);" data-category-image="ranks">Ranks
+
+              </a>
+              <a href="javascript:void(0);" data-category-image="punish">Punições
+
+              </a>
+              <a href="javascript:void(0);" data-category-image="cash">Cash
+
+              </a>
+            </li>
+
+          </ul>
+        </div>
+
+        <div class="twisty-net__modules" data-modules-type="topbar">
+          <script>
+            const GOAL_PROGRESS = "74";
+            const GOAL_AMOUNT = "741 / 1000 USD";
+            const IS_GOAL_ANIMATED = true;
+          </script>
+     <div class="twisty-net__modules__module" data-module-type="recentPayments">
+      <div class="twisty-net__modules__module__header">
+        <i class="mdi mdi-cart-arrow-up"></i>
+        <p>Compradores Recentes</p>
+      </div>
+      <div class="payments-flex">
+        <div class="payment-pr">
+          <div class="payment-tooltip">
+            <p>maciel</p>
+            <p class="payment-item">
+              VIP Mensal
+            </p>
+          </div>
+
+          <img src="https://visage.surgeplay.com/face/512/Chinging.png?y=70" alt="" width="64" />
+        </div>
+        <div class="payment-pr">
+          <div class="payment-tooltip">
+            <p>Heisenberg</p>
+            <p class="payment-item">
+              Unban
+            </p>
+          </div>
+
+          <img src="https://visage.surgeplay.com/face/512/Chin.png?y=70" alt="" width="64" />
+        </div>
+        <div class="payment-pr">
+          <div class="payment-tooltip">
+            <p>now</p>
+            <p class="payment-item">
+              MVP Mensal
+            </p>
+          </div>
+
+          <img src="https://visage.surgeplay.com/face/512/now.png?y=70" alt="" width="64" />
+        </div>
+        <div class="payment-pr">
+          <div class="payment-tooltip">
+            <p>Jiggi</p>
+            <p class="payment-item">
+              MVP Mensal
+            </p>
+          </div>
+
+          <img src="https://visage.surgeplay.com/face/512/Jiggi.png?y=70" alt="" width="64" />
+        </div>
+        <div class="payment-pr">
+          <div class="payment-tooltip">
+            <p>Prosmos</p>
+            <p class="payment-item">
+              MVP Mensal
+            </p>
+          </div>
+
+          <img src="https://visage.surgeplay.com/face/512/Prosmos.png?y=70" alt="" width="64" />
+        </div>
+        <div class="payment-pr">
+          <div class="payment-tooltip">
+            <p>Cymatics</p>
+            <p class="payment-item">
+              MVP+ Mensal
+            </p>
+          </div>
+
+          <img src="https://visage.surgeplay.com/face/512/Cymatics.png?y=70" alt="" width="64" />
+        </div>
+        <div class="payment-pr">
+          <div class="payment-tooltip">
+            <p>R4yZn</p>
+            <p class="payment-item">
+              MVP Mensal
+            </p>
+          </div>
+
+          <img src="https://visage.surgeplay.com/face/512/R4yZn.png?y=70" alt="" width="64" />
+        </div>
+      </div>
+    </div>
+
+
+        </div>
+        <br>
+        <div class="twisty-net__modules__module" data-module-type="topDonor">
+          <div class="twisty-net__modules__module__header">
+            <i class="mdi mdi-medal"></i>
+
+            <p>top Comprador (Mensal)</p>
+          </div>
+          <div class="top__payments--body">
+            <div class="top-donator">
+              <div class="avatar">
+
+
+                <img src="https://visage.surgeplay.com/head/512/EduKof.png?y=70" alt=""
+                  style="width: 48px;border-radius: 5px;margin-right: 15px;">
+
+              </div>
+              <div class="info">
+                <div class="ign">Maciel</div>
+                <div class="amount">
+
+                  Depositou 208.51 <small>BRL</small>
+
+                  este mês.
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </aside>
+      <main class="twisty-net-main-content">
+
+        <div class="twisty-net-body-description">
+
+
+
+
+          <div class="category__list--with--images">
+
+            <div class="category__list--item">
+
+              <div class="category__list__item--title">
+                <img href="javascript::void(0);" data-remote="/package/5382725"
+                  src="https://dunb17ur4ymx4.cloudfront.net/packages/images/5ec149391336a82df26d0e8ddc615b58d9d683f6.png"
+                  class="img-rounded twisty-net__toogle--modal">
+              </div>
+              <div class="category__list__item--details">
+                <p class='tituloItem'>MVP Mensal</p>
+                <div class="__item__price--list">
+                  <p class="__item--price">74.99 BRL
+                    <small></small>
+                  </p>
+                </div>
+              </div>
+              <div class="category__list__item--buttons">
+                <a href="#" target="_blank" class="cta " cta-type="info">
+                  <i class="fa fa-question" data-modal-toggler="mvpMensal"></i>
+                </a>
+                <a class="cta" cta-type="buy" href="https://twisty.network/checkout">
+                  <i class="mdi mdi-cart"></i>
+                  Efetuar Compra</a>
+
+              </div>
+            </div>
+            <div class="category__list--item">
+
+              <div class="category__list__item--title">
+                <img href="javascript::void(0);" data-remote="/package/5382725"
+                  src="https://dunb17ur4ymx4.cloudfront.net/packages/images/5ec149391336a82df26d0e8ddc615b58d9d683f6.png"
+                  class="img-rounded twisty-net__toogle--modal">
+              </div>
+              <div class="category__list__item--details">
+                <p class='tituloItem'>MVP Mensal</p>
+                <div class="__item__price--list">
+                  <p class="__item--price">74.99 BRL
+                    <small></small>
+                  </p>
+                </div>
+              </div>
+              <div class="category__list__item--buttons">
+                <a href="vantagens/mvp.html" target="_blank" class="cta " cta-type="info">
+                  <i class="fa fa-question" data-modal-toggler="mvpMensal"></i>
+                </a>
+                <a class="cta" cta-type="buy" href="https://twisty.network/checkout">
+                  <i class="mdi mdi-cart"></i>
+                  Efetuar Compra</a>
+
+              </div>
+            </div>
+            <div class="category__list--item">
+
+              <div class="category__list__item--title">
+                <img href="javascript::void(0);" data-remote="/package/5382725"
+                  src="https://dunb17ur4ymx4.cloudfront.net/packages/images/5ec149391336a82df26d0e8ddc615b58d9d683f6.png"
+                  class="img-rounded twisty-net__toogle--modal">
+              </div>
+              <div class="category__list__item--details">
+                <p class='tituloItem'>MVP Mensal</p>
+                <div class="__item__price--list">
+                  <p class="__item--price">74.99 BRL
+                    <small></small>
+                  </p>
+                </div>
+              </div>
+              <div class="category__list__item--buttons">
+                <a href="vantagens/mvp.html" target="_blank" class="cta " cta-type="info">
+                  <i class="fa fa-question" data-modal-toggler="mvpMensal"></i>
+                </a>
+                <a class="cta" cta-type="buy" href="https://twisty.network/checkout">
+                  <i class="mdi mdi-cart"></i>
+                  Efetuar Compra</a>
+
+              </div>
+            </div>
+            <div class="category__list--item">
+
+              <div class="category__list__item--title">
+                <img href="javascript::void(0);" data-remote="/package/5382725"
+                  src="https://dunb17ur4ymx4.cloudfront.net/packages/images/5ec149391336a82df26d0e8ddc615b58d9d683f6.png"
+                  class="img-rounded twisty-net__toogle--modal">
+              </div>
+              <div class="category__list__item--details">
+                <p class='tituloItem'>MVP Mensal</p>
+                <div class="__item__price--list">
+                  <p class="__item--price">74.99 BRL
+                    <small></small>
+                  </p>
+                </div>
+              </div>
+              <div class="category__list__item--buttons">
+                <a href="vantagens/mvp.html" target="_blank" class="cta " cta-type="info">
+                  <i class="fa fa-question" data-modal-toggler="mvpMensal"></i>
+                </a>
+                <a class="cta" cta-type="buy" href="https://twisty.network/checkout">
+                  <i class="mdi mdi-cart"></i>
+                  Efetuar Compra</a>
+
+              </div>
+            </div>
+
+
+          </div>
+
+        </div>
+
+      </main>
+
+    </div>
+  </div>
+
+  <input type="text" id="ipServer" value="twisty.network" />
+
+  <div class="twisty-net-wrapper">
+    <div class="footer-twisty-net" id="41012">
+      <div class="footer-copyright">
+        <p class="copyright-title">
+          Copyright © Twisty 2024. Todos Direitos Reservados.
+        </p>
+        <p class="copyright-subtitle">
+           Twisty não é afilíado a Mojang. Site feito por <span><a href="https://amazingstudios.com" class="amazingfooter" target="_blank">Amazing &copy;</a></span></a></a>
+        </p>
+      </div>
+      <dialog class="modal" data-loading-modal="" data-modal-type="package">
+        <div class="t-modal-loading">
+          <svg width="50" height="50" viewbox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M2 25C2 37.7026 12.2974 48 25 48C37.7026 48 48 37.7026 48 25C48 12.2974 37.7026 2 25 2"
+              stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+          </svg>
+        </div>
+        <div class="t-modal-content">
+          <button class="t-modal-content--close" aria-label="Close Modal">
+            <i aria-hidden="true" class="mdi mdi-window-close"></i>
+          </button>
+          <div class="t-modal-content__box">
+          </div>
+        </div>
+      </dialog>
+
+
+
+      <dialog class="modal" data-loading-modal="" data-modal-type="selecionarCategoria">
+        <div class="t-modal-loading">
+          <svg width="50" height="50" viewbox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M2 25C2 37.7026 12.2974 48 25 48C37.7026 48 48 37.7026 48 25C48 12.2974 37.7026 2 25 2"
+              stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+          </svg>
+        </div>
+        <div class="t-modal-content">   
+          <div class="t-modal-content__box">
+
+            <div class="t-modal-content__box__categoryModal">
+              <h3>Selecione um Item</h3>
+              <p>Clique em qualquer lugar fora para sair desta aba.</p>
+              <ul>
+               
+
+                <li>
+
+                  <a href="phoenix.html" class="">
+                    <img src="https://visage.surgeplay.com/head/512/Epicphoenix766?y=30">
+                    R. UP Phoenix
+                  </a>
+                </li>
+
+               
+              </ul>
+            </div>
+
+          </div>
+        </div>
+      </dialog>
+
+      <dialog class="modal" data-loading-modal="" data-modal-type="mvpMensal">
+        <div class="t-modal-loading">
+          <svg width="50" height="50" viewbox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M2 25C2 37.7026 12.2974 48 25 48C37.7026 48 48 37.7026 48 25C48 12.2974 37.7026 2 25 2"
+              stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+          </svg>
+        </div>
+        <div class="t-modal-content">
+          <button class="t-modal-content--close" aria-label="Close Modal">
+            <i aria-hidden="true" class="mdi mdi-window-close"></i>
+          </button>
+          <div class="t-modal-content__box">
+
+            <div class="t-modal-content__box__categoryModal">
+              <h3>Selecione um asd</h3>
+              <ul>
+
+                <li>
+
+                  <a href="categoria/ranks.html">
+                    <img
+                      src="https://media.discordapp.net/attachments/896083092656234506/1124908490805219419/HaunzMC_sem_fundo.png?width=566&height=566">
+                    Global
+                  </a>
+                </li>
+
+
+
+
+
+                <li>
+
+                  <a href="categoria/ranks.html" class="">
+                    <img src="https://staticassets.hypixel.net/store/icons/gifts/3.png">
+                    Cash & Moedas
+                  </a>
+                </li>
+
+              </ul>
+            </div>
+
+          </div>
+        </div>
+      </dialog>
+
+
+      <script src="../ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="../ajax/libs/sweetalert/2.1.2/sweetalert.min.js"></script>
+      <script src="../ajax/libs/izimodal/1.5.1/js/iziModal.min.js"></script>
+      <script src="../counter/dist/axios.min.js"></script>
+      <script src="../assets/js/other.js"></script>
+
+
+
+
+</body>
+
+</html>
